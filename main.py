@@ -82,12 +82,12 @@ def gettodolist(bearer):
     'User-Agent': 'okhttp/4.9.0',
 }
 
-    data = {'d_date': '2023-12-30'}
+    date = {'d_date': '2023-12-30'}
     url = 'https://api.gesitbelajar.com/api/todolist/detail/activity'
     now = datetime.now()
     timenow = now.strftime("%H:%M:%S")
     print(Colorate.Color(Colors.yellow,"[{}] ".format(timenow)) + Colorate.Color(Colors.orange,"[+] Getting todolist detail."))
-    req = requests.post(url, headers=headers, data=data)
+    req = requests.post(url, headers=headers, data=date)
     hasil = req.json()
 
     try:
