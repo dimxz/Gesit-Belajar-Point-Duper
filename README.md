@@ -6,10 +6,10 @@ Gunakan untuk menambah poin akun gesit belajar anda dengan cepat ;)
 Open terminal and paste the following commands :
 
 ```
-git clone https://github.com/dimxz/Gesit-Belajar-Point-Dupe
+git clone https://github.com/dimxz/Gesit-Belajar-Point-Duper
 ```
 ```
-cd "Gesit-Belajar-Point-Dupe"
+cd "Gesit-Belajar-Point-Duper"
 ```
 ```
 pip install -r requirements.txt
