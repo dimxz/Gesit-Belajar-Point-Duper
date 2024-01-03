@@ -2,3 +2,7 @@ requests
 pystyle
 datetime 
 pycryptodome
+random
+base64
+codecs
+zlib
